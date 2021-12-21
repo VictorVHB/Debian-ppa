@@ -1,0 +1,11 @@
+Linux Deepin não utiliza add-apt-repository para possibilitar a instalação de programas advindos de um PPA Personal Package Archive
+Este recurso é utilizado em distribuições Ubuntu, da seguinte forma:
+-sudo add-apt-repository ppa:cpug-devs/ppa 
+(Comando add-apt-repository, descrevendo para o sistema que vamos adicionar um repositório de software) 
+(Seguido pelo “ppa:EndereçoDoPPA”)
+sudo apt-get update / sudo apt-get install cpu-g
+
+Boa explicação pelo Dio Linux: https://diolinux.com.br/sistemas-operacionais/linux-mint/como-adicionar-um-ppa-no-ubuntu.html
+
+Como o Deepin não é baseado no Ubuntu, mas no Debian, ele não possui a funcionalidade do add-apt-repository
+“sudo: add-apt-repository: comando não encontrado”
